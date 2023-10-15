@@ -5,8 +5,8 @@
 */
 public class HelloWorld {
     public static void main(String []args) {
-        int age = 10;
-        String name = "Nithin";
-        System.out.println(age + name + a);
+        int age = 1;
+        String name = "A";
+        System.out.println(age + name);
     }
 }
