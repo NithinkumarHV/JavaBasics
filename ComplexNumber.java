@@ -16,7 +16,7 @@ class Complex {
     }
 }
 
-class Test {
+class ComplexNumber {
     public static void main (String []args) {
         Complex c1 = new Complex(10,20);
         Complex c2 = new Complex(20,10);
