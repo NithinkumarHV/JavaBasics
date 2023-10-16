@@ -80,7 +80,6 @@ class ExceptionHandling {
 		    System.out.println(a/b); 
 		} 
 	    catch(ArithmeticException e){ 
-		    // System.out.println(e);  java.lang.ArithmeticException: / by zero
             System.out.println(e.getMessage()); 
 	    }
         finally {
