@@ -1,6 +1,7 @@
 class Complex {
     int re,im;
 
+    // Constructor
     Complex(int r, int i){
         re = r;
         im = i;
@@ -24,6 +25,7 @@ class ComplexNumber {
         c1.print();
         c2.print();
 
+        // Called on object c1
         c1.add(c2);
         c1.print();
     }

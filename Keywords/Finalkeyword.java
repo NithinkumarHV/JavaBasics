@@ -1,7 +1,7 @@
 import java.io.*;
 
 class Test {
-    // final int x;  error: variable x not initialized in the default constructor
+    // Instance Final Variable - are at instance level i.e, every object has a different copy of x and y
     final int x,y;
     // Initializer block
     { x = 100; };
@@ -17,9 +17,11 @@ class Test1 {
 }
 
 class Finalkeyword {
+    // Static Final or Class Final variable
     static final int MIN = 0;
 
     public static void main(String []args){
+        // Local Final variable
         final StringBuffer sb = new StringBuffer("Geeks");
         sb.append("forGeeks");
 
